@@ -1,0 +1,17 @@
+r {
+    display: inline;
+    color: red;
+}
+
+bl {
+    display: inline;
+    color: blue;
+}
+
+span.r{
+    color:red;
+}
+
+span.bl{
+    color:blue;
+}
