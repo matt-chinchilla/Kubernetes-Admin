@@ -1,6 +1,5 @@
 # Dirs
 /Diagrams/
-/Notes/
 
 # Files
-.gitignore
+/Notes/commands.md
