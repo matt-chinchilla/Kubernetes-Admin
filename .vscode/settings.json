@@ -1,5 +1,18 @@
 {
     "markdown.styles": [
         "./.vscode/markdown.css"
-    ]
+    ],
+
+    "editor.tabCompletion": "on",
+    "emmet.excludeLanguages": [],
+    "emmet.includeLanguages": {
+        "markdown": "html"
+    },
+
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggesions": true
+    },
+
+    "emmet.triggerExpansionOnTab": true
 }

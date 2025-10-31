@@ -1,17 +1,41 @@
-r {
+red {
     display: inline;
     color: red;
 }
 
-bl {
+blu {
     display: inline;
     color: blue;
 }
 
-span.r{
+gre {
+    display: inline;
+    color: green !important;
+}
+
+ora {
+    display: inline;
+    color: orange;
+}
+
+ind {
+    display: inline;
+    color: indigo;
+}
+
+/* element.class*/
+span.red{
     color:red;
 }
 
-span.bl{
+span.blu{
     color:blue;
+}
+
+span.gre{
+    color:green !important;
+}
+
+span.ora{
+    color: orange;
 }
