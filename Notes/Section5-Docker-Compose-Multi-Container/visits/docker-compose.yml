@@ -1,0 +1,8 @@
+version: '3'
+services:           # Specifies the containers being created
+  redis-server:       #_______Container 1_______
+    image: 'redis'    
+  node-app:           #_______Container 2_______
+    build: .              # Look in Current directory for Dockerfile
+    ports:
+      - "4001:8081"       # "-" == array --> "localPort:containerPort"
