@@ -1,0 +1,9 @@
+version: '3'
+services:           # Specifies the containers being created
+  redis-server:       #_______Container 1_______
+    image: 'redis'    
+  node-app:           #_______Container 2_______
+    restart: always       # Restart policy ["no": "Never attempt to restart", "always": "if it stops for any reason", "on-failure": "only restart b/c of an error code", "unless-stopped": "always rest, BUT don't if a dev forces it"]
+    build: .              # Look in Current directory for Dockerfile
+    ports:
+      - "4001:8081"       # "-" == array --> "localPort:containerPort"
