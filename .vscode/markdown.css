@@ -23,6 +23,12 @@ ind {
     color: indigo;
 }
 
+yel {
+    display: inline;
+    color: gold;
+    opacity: 0.85;
+}
+
 /* element.class*/
 span.red{
     color:red;
